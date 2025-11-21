@@ -101,6 +101,36 @@
        The structure is clearer, the roles are functional, and it’s finally starting to feel like we planned at the beginning at least concept wise.
       </p>
     </section>
+
+    <section class="entry">
+      <h2>Seventh Process Documentation</h2>
+      <p>
+       This week we focused mainly on fixing several bugs in the main scenario and improving the overall gameplay flow. 
+       A lot of the work went into tracking down issues that only appeared once multiple players were connected at the same time, especially around night actions and how the server broadcasted role-specific states. 
+       We managed to solve most of the problems and the gameplay feels noticeably smoother now.
+
+       Even though the progress was solid, I noticed that every bug fix opened up new questions about how our system should behave in different steps. 
+       It made me realize how important it is to have a clear definition of each stage of the game. 
+       We also had to slow down a bit to document decisions so we don’t lose track of why a mechanic works the way it does. 
+       Overall, this week was less about adding new features and more about stabilizing what already existed, which I think was necessary before moving forward.
+      </p>
+    </section>
+
+    <section class="entry">
+      <h2>Eighth Process Documentation</h2>
+      <p>
+       This week was a big milestone: we now have the full game mechanics working from start to finish. 
+       Roles, night actions, kills, reveals, and the day cycle are all functioning in a full playthrough. 
+       It finally feels like an actual game and not just separate pieces being tested in isolation.
+
+       We also reworked the voting system. The original physics-based voting (looking at players + raycasting) turned out to be unreliable and frustrating, 
+       especially when players moved or weren’t aligned with the camera. After testing, we switched to UI checkmarks for voting, which made the process much clearer and smoother for everyone. 
+       This change reminded me that sometimes the “cooler” idea isn’t the best one for usability, and that player experience should always come first.
+
+       Finishing the mechanics felt rewarding, but it also highlighted how much polishing is still left:
+       animations, feedback, clarity, and edge-case testing. The game works, but now we need to make it feel good.
+      </p>
+    </section>
   </main>
 </body>
 </html>
